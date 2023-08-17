@@ -1,0 +1,234 @@
+/* Fonts import from Google */
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Dancing+Script:wght@400;500;600;700&family=Kadwa:wght@400;700&display=swap');
+
+/* Overide the default styles of the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #3a3a3a;
+    font-family: 'bitter', sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'kadwa', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #81a59b;
+}
+
+h3 {
+    font-family: 'Dancing Script', sans-serif;
+}
+
+header, footer {
+    background-color: #f1f1f1;
+}
+
+main {
+    background-color:#81a59b;
+}
+
+/* Header */
+header {
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu>li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+#logo {
+    font-size: 10vh;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+
+
+
+
+
+/* header {
+    padding: 15px 0px;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu {
+    font-size: 80%;
+    letter-spacing: 2px;
+    list-style-type: none;
+    color: #3a3a3a;
+}
+
+#menu>li {
+    margin-bottom: 1em;
+}
+
+.active {
+    color: #81a59b;
+    border-bottom: 1px solid #81a59b;
+
+}
+
+
+/* Main Content*/
+
+main {
+    flex: 1 0 auto;
+    margin-top: 63px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #f1f1f1;
+}
+
+#contact-tagline {
+    text-align: left;
+    display: flex;
+    padding: 0px 5px;
+    color: #81a59b;
+    font-size: 80%;
+    text-decoration: underline;
+}
+
+#contact-info {
+    text-align: left;
+    padding: 5px;
+    display: flex;
+    font-size: 65%;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+#contact-info a {
+    text-decoration: underline;
+    color: #8D9FB7;
+}
+
+#contact-info label{
+    color: #81a59b;
+}
+
+#social-networks {
+    text-align: center;
+    padding: 5px 2px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #81a59b;
+}
+
+
+
+/* Media Queries */
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {}
+
+/* Media query: large devices (tablets and larger, 768px and up) */
+@media screen and (min-width: 768px) {
+nav {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+}
+    
+#menu {
+    display: flex;
+}
+    
+#menu>li {
+    padding-left: 1rem;
+}
+
+.nav-toggle-label {
+    display: none;
+}
+#logo {
+    font-size: 280%;
+    line-height: 75px;
+    margin: 0 0.5rem;
+}
+}
+
+/* Media query: large devices (laptops and larger, 992px and up) */
+@media screen and (min-width: 992px) {}
+
+/* Media query: large devices (desktops and larger, 1200px and up) */
+@media screen and (min-width: 1200px) {}
