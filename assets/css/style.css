@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+.gone {
+    display: none;
+}
+
 /* General Styles */
 body {
     min-height: 100vh;
@@ -36,15 +40,15 @@ main {
 /* Header */
 header {
     background-color: #f1f1f1;
-    padding: 0 1rem;
+    padding: 0 10px;
     position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
-    font-size: 100%;
+    align-items: center;
+    font-size: 50%;
 }
 
 header a {
@@ -63,15 +67,17 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #81a59b;
+    color: #81a59b;
 }
 
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: #f1f1f1;
     width: 100%;
     left: 0;
+    text-align: right;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
@@ -88,14 +94,14 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+    font-size: 220%;
+    color: #81a59b;
 }
 
 /* Main Content*/
 
 main {
     flex: 1 0 auto;
-    margin-top: 63px;
 }
 
 
@@ -105,110 +111,187 @@ footer {
     background-color: #f1f1f1;
 }
 
-#contact-base {
+#social-networks {
     text-align: center;
-    padding: 2%;
-    list-style-type:none;
-    font-size: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: #ededed;
+}
+
+#social-networks i{
+    font-size: 160%;
+    padding: 0;
+    color: #81a59b;
 }
 
 #contact-info {
     text-align: left;
+    padding: 5px 5px 10px;
+    display: flex;
+    flex-flow: column wrap;
+    font-size: 70%;
     list-style-type: none;
-    padding: 2%;
-    font-size: 65%;
 }
 
-#contact-base>h2 {
-    font-size: 100%;
+#contact-info>label {
+    color: #3a3a3a;
 }
 
 #contact-info a {
-    color: #81a59b;
+    color: #359a7f;
 }
 
-#social-networks {
-    text-align: center;
-    padding: 5px 20px;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-}
-
-#social-networks i {
-    font-size: 160%;
-    padding: 5%;
-    color: #81a59b;
-}
-
-#visit-tag {
-    display: none;
+#contact-tag {
+    font-size: 90%;
+    text-align: left;
+    padding-left: 5px;
 }
 
 /* Media Queries */
 
 /* Media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 576px) {}
+@media screen and (min-width: 576px) {
+    
+    /*Footer*/
+    .gone {
+        display: block;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: baseline;
+        flex-direction: row;
+        padding-top: 10px;
+    }
+
+    footer>hr {
+        display: none;
+    }
+
+    footer>section{
+        align-items: center;
+        width: 50%;
+    }
+
+    #contact-tag {
+        font-size: 90%;
+        text-align: center;
+        padding: 0;
+    }
+    
+    #visit-tag {
+    font-size: 90%;
+    text-align: center;
+    }
+
+    #contact-info,
+    #social-networks {
+        padding: 10px 5px;
+        background-color: transparent;
+    }
+
+    #vertical-line {
+        border-left: 1px solid #81a59b;
+    }
+
+}
 
 /* Media query: large devices (tablets and larger, 768px and up) */
 @media screen and (min-width: 768px) {
-footer {
-    width: 100%;
-    height: 120px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    padding: 0;
- }
+    /* Header */
+        header{
+            display: flex;
+            align-items: center;
+            justify-content: baseline;
+            box-shadow: none;
 
- #visit-tag {
-    display: block;
- }
+        }
 
- #visit-base {
-     text-align: center;
-     padding: 0 2%;
-     list-style-type: none;
-     font-size: 100%;
- }
+        header h1 {padding-left: 15px;
+        }
+        
+        nav {
+            display: block;
+            position: relative;
+            box-shadow: none;
+            width: fit-content;
+            padding-right: 1rem;
+        }
+    
+        #menu {
+            display: flex;
+            align-items: center;
+            line-height: 75px;
+        }
+    
+        #menu>li {
+            padding: 0 15px;
+            margin-bottom: 0;
+            font-size: 130%;
+            text-align: center;
+        }
+        
+    
+        .nav-toggle-label {
+            display: none;
+        }
+    
+        #logo {
+            font-size: 280%;
+            line-height: 75px;
+        }
 
- #contact-base {
-    text-align: center;
-    padding: 0 2%;
-    list-style-type: none;
-    font-size: 100%;
- }
-
- #social-networks {
-     text-align: left;
-     list-style-type: none;
-     padding: 3% 2%;
-     font-size: 100%;
- }
-
- #visit-base>h2 {
-     font-size: 100%;
- }
-
- footer>h2 {
-    line-height: 10px;
-    font-size: 200px;
- }
-
- #contact-base, #visit-base {
-    width: 50%;
-    height: 100px;
-    font-size: 120%;
- }
-
- #visit-base {
-    border-left: 2px solid #81a59b;
- }
-
+        #signup-tag {
+            border: 1px solid #81a59b;
+            background-color: #81a59b;
+            color: #f1f1f1;
+            border-radius: 50px;
+            padding: 5px 15px;
+        }
 }
+
 /* Media query: large devices (laptops and larger, 992px and up) */
-@media screen and (min-width: 992px) {}
+@media screen and (min-width: 992px) {
+    /*Header*/
+
+    #logo {
+        font-size: 400%;
+    }
+
+    #menu {
+        font-size: 125%;
+    }
+
+    #menu>li:hover {
+        color: #80c1af;
+    }
+
+    #signup-tag:hover {
+        background-color: transparent;
+        border: 2px solid #81a59b;
+        color:#81a59b;
+    }
+    
+    /*Footer*/
+    #contact-info {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    footer {
+        font-size:110%;
+        padding-bottom:10px;
+    }
+
+    #contact-info a:hover{
+        color: #4dddb6;
+    }
+}
 
 /* Media query: large devices (desktops and larger, 1200px and up) */
 @media screen and (min-width: 1200px) {}
