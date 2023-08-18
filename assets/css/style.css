@@ -202,7 +202,7 @@ footer {
 /* Media query: large devices (tablets and larger, 768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
-        header{
+    header{
             display: flex;
             align-items: center;
             justify-content: baseline;
@@ -212,7 +212,7 @@ footer {
 
         header h1 {padding-left: 15px;
         }
-        
+
         nav {
             display: block;
             position: relative;
@@ -270,11 +270,12 @@ footer {
     }
 
     #signup-tag:hover {
-        background-color: transparent;
+        background-color: #f1f1f1;
         border: 2px solid #81a59b;
         color:#81a59b;
     }
-    
+    }
+
     /*Footer*/
     #contact-info {
         display: flex;
@@ -291,6 +292,7 @@ footer {
     #contact-info a:hover{
         color: #4dddb6;
     }
+
 }
 
 /* Media query: large devices (desktops and larger, 1200px and up) */
