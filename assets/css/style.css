@@ -119,13 +119,13 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url('../images/beach.webp');
+    background: url('../images/beach.webp') no-repeat center center/cover;
     display: flex;
     justify-content: center;
 }
 
 #cover-text {
-    background-color: rgba(46, 94, 76, 0.7);
+    background-color: rgba(46, 94, 76, 0.8);
     font-size: 200%;
     position: absolute;
     width: 100%;
@@ -148,6 +148,7 @@ main {
 #section1 h2 {
     font-size: 100%;
     text-align: center;
+    padding: 15px;
 
 }
 
@@ -174,12 +175,18 @@ main {
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
+    flex-basis: 300px;
+    flex-grow: 1;
 }
 
 #couple-image {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+#couple-image-r {
+    margin: 10px;
 }
 
 /* Deals and Offers section*/
@@ -189,6 +196,7 @@ main {
     text-align: center;
     color: #f1f1f1;
     background-color: #81a59b;
+    padding: 15px;
 }
 
 #twelve-month-t h4, 
@@ -199,10 +207,19 @@ main {
     text-align: center;
 }
 
+#deals-t div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #six-month-t, 
 #twelve-month-t {
     border-top: 5px solid #81a59b;
     border-bottom: 5px solid #81a59b;
+    font-size: 120%;
+    background-color: rgba( 129, 165, 155, .1);
+    flex-basis: 300px;
+    flex-grow: 1;
 }
 
 #six-month-t {
@@ -221,7 +238,8 @@ main {
 #six-month-t ul {
     font-size: 75%;
     padding-bottom: 20px;
-    padding-left: 20px;
+    padding-left: 35px;
+    padding-right: 10px;
 }
 
 #six-month-t li, 
@@ -245,11 +263,16 @@ main {
 
 #section3 {
     color: #f1f1f1;
+    display: flex;
+    flex-wrap: wrap;
     padding: 15px 5px;
+    font-size: 150%;
+    background-color: rgba(0, 0, 0, .7);
+    margin: 10px 0;
 }
 
 .profile {
-    background-color:#242424;
+    background-color:rgba(129, 165, 155, .9);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -257,6 +280,14 @@ main {
     padding: 10px 0;
     margin: 10px 0;
     border-radius: 5%;
+    line-height: 15px;
+    flex-basis: 230px;
+    flex-grow: 1;
+    margin: 5px;
+}
+
+.profile-info h4 {
+    padding: 5px 5px 5px 0;
 }
 
 /* Profile images*/
@@ -357,12 +388,38 @@ footer {
 /*Main*/
 
 /* About us section */
+#section1, 
+#section2 {
+    font-size: 120%;
+}
+
 #about-us-all {
     display:flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
+
+#six-month-t, 
+#twelve-month-t {
+    font-size: 110%;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 250px;
+    padding: 5px;
+    font-size: 110%;
+}
+
+
+#deals-t {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/**/
 
 /*Footer*/
 
@@ -464,6 +521,10 @@ nav {
     padding: 5px 15px;
 }
 
+/*Cover image*/
+#cover-text {
+    font-size: 300%;
+}
 }
 
 /* Media query: large devices (laptops and larger, 992px and up) */
@@ -489,6 +550,16 @@ nav {
     color:#81a59b;
 }
 
+/*Main content*/
+
+#section1 {
+    font-size: 150%;
+}
+
+#section3 {
+    font-size: 200%;
+}
+
 /*Footer*/
 #contact-info {
     display: flex;
@@ -509,4 +580,9 @@ footer {
 }
 
 /* Media query: large devices (desktops and larger, 1200px and up) */
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+    /*About us section*/
+    #about-us-all {
+        font-size: 110%;
+    }
+}
