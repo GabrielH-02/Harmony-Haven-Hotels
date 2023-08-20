@@ -191,6 +191,7 @@ main {
     background-color: #81a59b;
 }
 
+#twelve-month-t h4, 
 #six-month-t h4 {
     color: #81a59b;
     font-size: 110%;
@@ -198,48 +199,40 @@ main {
     text-align: center;
 }
 
-#twelve-month-t h4 {
-    color: #81a59b;
-    font-size: 110%;
-    padding: 10px;
-    text-align: center;
+#six-month-t, 
+#twelve-month-t {
+    border-top: 5px solid #81a59b;
+    border-bottom: 5px solid #81a59b;
 }
 
 #six-month-t {
     margin: 15px 15px 10px 0;
-    border-top: 5px solid #81a59b;
     border-right: 5px solid #81a59b;
-    border-bottom: 5px solid #81a59b;
     border-radius: 0 10% 10% 0;
 }
 
 #twelve-month-t {
     margin: 10px 0px 15px 15px;
-    border-top: 5px solid #81a59b;
     border-left: 5px solid #81a59b;
-    border-bottom: 5px solid #81a59b;
     border-radius: 10% 0 0 10%;
 }
 
-#twelve-month-t ul {
-    font-size: 75%;
-    padding-bottom: 20px;
-    padding-left: 20px;
-}
-
+#twelve-month-t ul, 
 #six-month-t ul {
     font-size: 75%;
     padding-bottom: 20px;
     padding-left: 20px;
 }
 
-#six-month-t li, #twelve-month-t li {
+#six-month-t li, 
+#twelve-month-t li {
     padding: 5px 0;
 }
 
-#six-month-t a, #twelve-month-t a {
+#six-month-t a,
+#twelve-month-t a {
     text-decoration: none;
-    color: #359a7f;
+    color: #369c7f;
 }
 
 #or {
@@ -265,6 +258,8 @@ main {
     margin: 10px 0;
     border-radius: 5%;
 }
+
+/* Profile images*/
 
 #olivia {
     background: url('../images/olivia.webp') no-repeat top center / cover;
@@ -382,15 +377,15 @@ footer>section{
     width: 50%;
 }
 
-#contact-tag {
+#contact-tag, 
+#visit-tag {
     font-size: 90%;
     text-align: center;
     padding: 0;
 }
     
-#visit-tag {
-    font-size: 90%;
-    text-align: center;
+#contact-tag {
+    padding: 0;
 }
 
 #contact-info,
