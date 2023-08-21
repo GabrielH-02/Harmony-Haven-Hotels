@@ -116,12 +116,20 @@ main {
     margin-top: 30px;
 }
 /* Cover image*/
-#hero {
+.hero-c {
     height: 600px;
     width: 100%;
-    background: url('../images/beach.webp') no-repeat center center/cover;
     display: flex;
     justify-content: center;
+}
+
+#hero {
+    background: url('../images/beach.webp') no-repeat center center/cover;
+}
+
+#pool {
+    background: url('../images/pool2.webp') no-repeat center center/cover;
+    margin: 20px 0;
 }
 
 #cover-text {
@@ -417,8 +425,6 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
-
-/**/
 
 /*Footer*/
 
