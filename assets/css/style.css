@@ -36,6 +36,10 @@ h2 {
     color: #81a59b;
 }
 
+label {
+    font-family: 'kadwa', sans-serif;
+}
+
 h3 {
     font-family: 'Dancing Script', sans-serif;
     color: #f1f1f1;
@@ -342,6 +346,64 @@ main {
 .profile-info p{
    padding: 5px;
 }
+
+/* Sign-up page */
+
+main {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#signup {
+    background: url('../images/path.webp');
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10%;
+    flex-grow: 1;
+}
+
+#signup-form {
+    color: #f1f1f1;
+    background-color: rgba(129, 165, 155, .8);
+    padding: 20px;
+}
+
+#signup-form> h3 {
+    margin-bottom: 20px;
+    font-size: 5vh;
+    text-align: center;
+}
+
+#signup-form label {
+    text-align: center;
+    word-spacing: 2px;
+    font-size: 2vh;
+}
+
+#signup-choices>h4 {
+    text-align: center;
+    padding: 10px 0;
+    word-spacing: 2px;
+    font-size: 2vh;
+}
+
+.entry-label {
+    background: transparent;
+    color: #f1f1f1;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #f1f1f1;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+/* #signup-choices {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+} */
 
 /* Footer */
 
