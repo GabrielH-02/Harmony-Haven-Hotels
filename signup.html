@@ -39,12 +39,12 @@
 
     <main>
         <section id="signup">
-            <form action="landing.html" method="post" id="signup-form" id="signup-form">
+            <form action="landing.html" method="post" id="signup-form">
 
                     <h3>Let's start your journey!</h3>
 
                     <div>
-                        <label for="name-field">Name</label>
+                        <label for="name-field">Full Name</label>
                         <input id="name-field" class="entry-label" type="text" name="full_name" required>
                     </div>
 
@@ -70,59 +70,27 @@
                         </select>
                     </div>
 
-                    <div id="signup-choices">
-                        <h4>Which offer would be most appealing to you?</h4>
-                        <div>
-                            <input id="6-month-radio" name="offer" value="6-month-traveller" type="radio" required>
-                            <label for="6-month-radio">6 Month Traveller</label>
+                    <div>
+                        <label>Which offer would be most appealing to you?</label>
+                        <div class="radio-buttons">
+                            <div> 
+                                <input id="6-month-radio" name="offer" value="6-month-traveller" type="radio" required>
+                                <label for="6-month-radio">6 Month Traveller</label>
+                            </div>
+
+                            <div class="radio-choices">
+                                <input id="12-month-radio" name="offer" value="12-month-traveller" type="radio" required>
+                                <label for="12-month-radio">12 Month Traveller</label>
+                            </div>
+
+                            <div class="radio-choices">
+                                <input id="custom-month-radio" name="offer" value="custom-month-traveller" type="radio" required>
+                                <label for="custom-month-radio">Custom Month Traveller</label>
+                            </div>
                         </div>
-
-                        <div>
-                            <input id="12-month-radio" name="offer" value="12-month-traveller" type="radio" required>
-                            <label for="12-month-radio">12 Month Traveller</label>
-                        </div>
-
-                        <div>
-                            <input id="custom-month-radio" name="offer" value="custom-month-traveller" type="radio" required>
-                            <label for="custom-month-radio">Custom Month Traveller</label>
-                        </div>
-
-                        <h4>Which continents are you interested in visiting?</h4>
-
-                        <div>
-                            <input type="checkbox" id="africa-checkbox" name="africa">
-                            <label for="africa-checkbox">Africa</label>
-                        </div>
-
-                        <div>
-                            <input type="checkbox" id="asia-checkbox" name="asia">
-                            <label for="asia-checkbox">Asia</label>
-                        </div>
-
-                        <div>
-                            <input type="checkbox" id="europe-checkbox" name="europe">
-                            <label for="europe-checkbox">Europe</label>
-                        </div>
-
-                        <div>
-                            <input type="checkbox" id="oceania-checkbox" name="oceania">
-                            <label for="oceania-checkbox">Oceania</label>
-                        </div>
-
-                        <div>
-                            <input type="checkbox" id="north-america-checkbox" name="north-america">
-                            <label for="north-america-checkbox">North-America</label>
-                        </div>
-
-                        <div>
-                            <input type="checkbox" id="south-america-checkbox" name="south-america">
-                            <label for="south-america-checkbox">South-America</label>
-                        </div>
-
-                        <h4>Additional Information <em>(optional)</em></h4>
-                        <textarea name="add-info" id="add-info" cols="20" rows="4" placeholder="e.g I wish to travel with a group!"></textarea>
                     </div>
-                    <a href="landing.html" class="signup-tag">Let's Go!</a>
+                    <br>
+                    <a href="landing.html" class="signup-button">Let's Go!</a>
             </form>
         </section>
     </main>
