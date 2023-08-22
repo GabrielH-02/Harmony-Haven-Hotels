@@ -360,7 +360,11 @@ main {
     background-size: cover;
     background-position: 75%;
     flex-grow: 1;
-    min-height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 1050px;
 }
 
 #signup-form {
@@ -368,6 +372,12 @@ main {
     background-color: rgba(129, 165, 155, .9);
     padding: 30px;
     margin:  2% 5% ;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #signup-form h3 {
@@ -396,7 +406,7 @@ main {
     height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid #f1f1f1;
-    border-radius: 2px;
+    border-radius: 50px;
     padding: 0 10px;
 }
 
@@ -408,7 +418,7 @@ main {
     border-radius: 50px;
     padding: 5px 15px;
     text-decoration: none;
-    margin: 25%;
+    text-align: center;
 }
 
 /* Footer */
@@ -612,13 +622,13 @@ nav {
     top: 150px;
 }
 
-#text-input:hover {
-    border-color: #f16c6b;
+.entry-label:hover {
+    border-color: #42eec0;
 }
 
-.join-button:hover {
-    background-color: #fafafa;
-    color: #454b1b;
+.signup-button:hover {
+    background-color: #f1f1f1;
+    color: #81a59b;
 }
 
 }
