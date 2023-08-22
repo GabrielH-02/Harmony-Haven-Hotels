@@ -355,7 +355,7 @@ main {
     flex-direction: column;
 }
 
-#signup {
+.signup {
     background: url('../images/path.webp');
     background-size: cover;
     background-position: 75%;
@@ -367,7 +367,7 @@ main {
     min-height: 1050px;
 }
 
-#signup-form {
+.signup-form {
     color: #f1f1f1;
     background-color: rgba(129, 165, 155, .9);
     padding: 30px;
@@ -380,7 +380,7 @@ form {
     justify-content: center;
 }
 
-#signup-form h3 {
+.signup-form h3 {
     font-size: 300%;
     text-align: center;
     margin-bottom: 20px;
@@ -419,6 +419,17 @@ form {
     padding: 5px 15px;
     text-decoration: none;
     text-align: center;
+}
+
+/* Landing page */
+.home-button {
+    text-decoration: none;
+    background-color: #f1f1f1;
+}
+
+.landing-tag {
+    text-align: center;
+    font-size: 110%;
 }
 
 /* Footer */
@@ -654,6 +665,10 @@ nav {
     background-color: #f1f1f1;
     border: 2px solid #81a59b;
     color:#81a59b;
+}
+
+.home-button:hover {
+    color: #80c1af;
 }
 
 /*Main content*/
