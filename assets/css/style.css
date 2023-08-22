@@ -146,6 +146,23 @@ main {
 
 /* About us section */
 
+.image-base {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.circle-image {
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+    margin: 10px;
+}
+
 #section1 {
     margin: 10px;
 }
@@ -172,22 +189,8 @@ main {
     color: #349d81;
 }
 
-#couple-image-r {
-    background: url('../images/couple.webp') no-repeat top center / cover;
-    height: 90vw;
-    width: 90vw;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
-    margin: 10px;
-}
-
 #couple-image {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    background: url('../images/couple.webp') no-repeat top center / cover;
 }
 
 /* Deals and Offers section*/
@@ -282,7 +285,6 @@ main {
     margin: 5px;
 }
 
-
 .profile-image {
     height: 50px;
     width: 50px;
@@ -353,6 +355,80 @@ main {
 
 .cities ul {
     margin: 0 5%;
+}
+
+/* Images of the desinations */
+
+#cairo-image {
+    background: url('../images/cairo.webp') no-repeat top center / cover;
+}
+
+#cape-town-image {
+    background: url('../images/cape-town.webp') no-repeat top center / cover;
+}
+
+#nairobi-image {
+    background: url('../images/nairobi.webp') no-repeat top center / cover;
+}
+
+#bangkok-image {
+    background: url('../images/bangkok.webp') no-repeat top center / cover;
+}
+
+#singapore-image {
+    background: url('../images/singapore.webp') no-repeat top center / cover;
+}
+
+#tokyo-image {
+    background: url('../images/tokyo.webp') no-repeat top center / cover;
+}
+
+#london-image {
+    background: url('../images/london.webp') no-repeat top center / cover;
+}
+
+#paris-image {
+    background: url('../images/paris.webp') no-repeat top center / cover;
+}
+
+#rome-image {
+    background: url('../images/rome.webp') no-repeat top center / cover;
+}
+
+#port-moresby-image {
+    background: url('../images/port-moresby.webp') no-repeat top center / cover;
+}
+
+#sydney-image {
+    background: url('../images/sydney.webp') no-repeat top center / cover;
+}
+
+#wellington-image {
+    background: url('../images/wellington.webp') no-repeat top center / cover;
+}
+
+#los-angeles-image {
+    background: url('../images/los-angeles.webp') no-repeat top center / cover;
+}
+
+#mexico-city-image {
+    background: url('../images/mexico-city.webp') no-repeat top center / cover;
+}
+
+#new-york-city-image {
+    background: url('../images/new-york-city.webp') no-repeat top center / cover;
+}
+
+#lima-image {
+    background: url('../images/lima.webp') no-repeat top center / cover;
+}
+
+#rio-de-janerio-image {
+    background: url('../images/rio-de-janerio.webp') no-repeat top center / cover;
+}
+
+#sao-paulo-image {
+    background: url('../images/sao-paulo.webp') no-repeat top center / cover;
 }
 
 /* Sign-up page */
