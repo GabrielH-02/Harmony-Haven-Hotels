@@ -124,7 +124,7 @@ main {
     height: 600px;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 #cover-text {
@@ -350,6 +350,24 @@ main {
 .profile-info p{
    padding: 5px;
 }
+
+/*Destinations Page*/
+
+#choose-continent ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 20px;
+    font-size: 150%;
+    background-color: #dddddd;
+}
+
+#choose-continent a {
+    color: #81a59b;
+    text-decoration: none;
+}
+
 
 /* Sign-up page */
 
