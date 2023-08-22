@@ -127,15 +127,6 @@ main {
     justify-content: center;
 }
 
-#hero {
-    background: url('../images/beach.webp') no-repeat center center/cover;
-}
-
-#pool {
-    background: url('../images/pool2.webp') no-repeat center center/cover;
-    margin: 20px 0;
-}
-
 #cover-text {
     background-color: rgba(46, 94, 76, 0.8);
     font-size: 200%;
@@ -145,10 +136,23 @@ main {
     height: 600px;
     text-align: center;
     color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#cover-text h3 {
-    margin: 130px 0;
+
+#hero {
+    background: url('../images/beach.webp') no-repeat center center/cover;
+}
+
+#pool {
+    background: url('../images/pool2.webp') no-repeat center center/cover;
+    margin: 20px 0;
+}
+
+#map {
+    background: url('../images/map.webp') no-repeat center center/cover;
 }
 
 /*About us section*/
