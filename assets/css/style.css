@@ -1,9 +1,7 @@
 /* Fonts import from Google */
-
 @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Dancing+Script:wght@400;500;600;700&family=Kadwa:wght@400;700&display=swap');
 
-/* Overide the default styles of the browser */
-
+/* General Formatting Styles */
 * {
     padding: 0;
     margin: 0;
@@ -14,11 +12,10 @@ html {
     scroll-behavior: smooth;
 }
 
-.gone {
-    display: none;
-}
-
 /* General Styles */
+main {
+    background-color: #f1f1f1;
+}
 
 body {
     min-height: 100vh;
@@ -36,21 +33,16 @@ h2 {
     color: #81a59b;
 }
 
-label {
-    font-family: 'kadwa', sans-serif;
-}
-
 h3 {
     font-family: 'Dancing Script', sans-serif;
     color: #f1f1f1;
 }
 
-main {
-    background-color:#f1f1f1;
+label {
+    font-family: 'kadwa', sans-serif;
 }
 
 /* Header */
-
 header {
     background-color: #f1f1f1;
     padding: 0 10px;
@@ -85,7 +77,6 @@ header a {
 }
 
 /* Navbar styles with dropdown toggle */
-
 nav {
     position: absolute;
     background-color: #f1f1f1;
@@ -99,7 +90,6 @@ nav {
 }
 
 /* Nav toggle */
-
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -113,13 +103,13 @@ nav {
     color: #81a59b;
 }
 
-/* Main Content*/
-
+/* Main Content */
 main {
     flex: 1 0 auto;
     margin-top: 30px;
 }
-/* Cover image*/
+
+/* Cover images */
 .hero-c {
     height: 600px;
     width: 100%;
@@ -141,7 +131,6 @@ main {
     align-items: center;
 }
 
-
 #hero {
     background: url('../images/beach.webp') no-repeat center center/cover;
 }
@@ -155,7 +144,7 @@ main {
     background: url('../images/map.webp') no-repeat center center/cover;
 }
 
-/*About us section*/
+/* About us section */
 
 #section1 {
     margin: 10px;
@@ -192,6 +181,7 @@ main {
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
+    margin: 10px;
 }
 
 #couple-image {
@@ -200,18 +190,19 @@ main {
     justify-content: space-evenly;
 }
 
-#couple-image-r {
-    margin: 10px;
-}
-
 /* Deals and Offers section*/
 
-#section2 h2 {
+.section2 h2 {
     font-size: 100%;
     text-align: center;
     color: #f1f1f1;
     background-color: #81a59b;
     padding: 15px;
+}
+
+#deals-t div {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #twelve-month-t h4, 
@@ -220,11 +211,6 @@ main {
     font-size: 110%;
     padding: 10px;
     text-align: center;
-}
-
-#deals-t div{
-    display: flex;
-    flex-wrap: wrap;
 }
 
 #six-month-t, 
@@ -301,8 +287,26 @@ main {
     margin: 5px;
 }
 
+
+.profile-image {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.profile-info {
+    text-align: left;
+    width: 75%;
+    font-size: 40%;
+}
+
 .profile-info h4 {
     padding: 5px 5px 5px 0;
+    font-size: 200%;
+}
+
+.profile-info p {
+    padding: 5px;
 }
 
 /* Profile images*/
@@ -331,26 +335,6 @@ main {
     background: url('../images/noah.webp') no-repeat top center / cover;
 }
 
-.profile-image {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-}
-
-.profile-info {
-    text-align: left;
-    width: 75%;
-    font-size: 40%;
-}
-
-.profile-info h4 {
-    font-size: 200%;
-}
-
-.profile-info p{
-   padding: 5px;
-}
-
 /*Destinations Page*/
 
 
@@ -360,6 +344,12 @@ main {
     flex: 1 0 auto;
     display: flex;
     flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .signup {
@@ -381,11 +371,6 @@ main {
     margin:  2% 5% ;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
 .signup-form h3 {
     font-size: 300%;
@@ -490,14 +475,21 @@ footer {
 
 /*Main*/
 
-/* About us section */
+/* About us & deals section */
 #section1, 
-#section2 {
+.section2 {
     font-size: 120%;
 }
 
 #about-us-all {
     display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#deals-t {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -514,13 +506,6 @@ footer {
     font-size: 110%;
 }
 
-
-#deals-t {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
 
 /*Footer*/
 
@@ -623,9 +608,11 @@ nav {
 }
 
 /*Cover image*/
+
 #cover-text {
     font-size: 300%;
 }
+
 /*Sign up page*/
 
 #signup {
@@ -689,7 +676,7 @@ nav {
     font-size: 160%;
 }
 
-#section2 {
+.section2 {
     font-size: 160%;
 }
 
@@ -739,7 +726,7 @@ footer {
             font-size: 200%;
         }
     
-    #section2 {
+    .section2 {
             font-size: 200%;
         }
     
@@ -768,7 +755,7 @@ footer {
             padding: 20px;
         }
     
-        #section2 {
+        .section2 {
             font-size: 250%;
             padding: 20px 0;
         }
