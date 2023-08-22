@@ -205,22 +205,36 @@ main {
     flex-wrap: wrap;
 }
 
-#twelve-month-t h4, 
-#six-month-t h4 {
-    color: #81a59b;
-    font-size: 110%;
-    padding: 10px;
-    text-align: center;
-}
-
-#six-month-t, 
-#twelve-month-t {
+.choices {
     border-top: 5px solid #81a59b;
     border-bottom: 5px solid #81a59b;
     font-size: 120%;
     background-color: rgba( 129, 165, 155, .1);
     flex-basis: 300px;
     flex-grow: 1;
+}
+
+.choices h4 {
+    color: #81a59b;
+    font-size: 110%;
+    padding: 10px;
+    text-align: center;
+}
+
+.choices ul {
+    font-size: 75%;
+    padding-bottom: 20px;
+    padding-left: 35px;
+    padding-right: 10px;
+}
+
+.choices li {
+    padding: 5px 0;
+}
+
+.choices a {
+    text-decoration: none;
+    color: #369c7f;
 }
 
 #six-month-t {
@@ -233,25 +247,6 @@ main {
     margin: 10px 0px 15px 15px;
     border-left: 5px solid #81a59b;
     border-radius: 10% 0 0 10%;
-}
-
-#twelve-month-t ul, 
-#six-month-t ul {
-    font-size: 75%;
-    padding-bottom: 20px;
-    padding-left: 35px;
-    padding-right: 10px;
-}
-
-#six-month-t li, 
-#twelve-month-t li {
-    padding: 5px 0;
-}
-
-#six-month-t a,
-#twelve-month-t a {
-    text-decoration: none;
-    color: #369c7f;
 }
 
 #or {
@@ -337,6 +332,28 @@ main {
 
 /*Destinations Page*/
 
+.cities {
+    background-color: rgba(129, 165, 155, .6);
+    margin: 20px 10px;
+    border-radius: 20px;
+    color: #f1f1f1;
+    font-size: 80%;
+}
+
+.cities h4 {
+    color: #f1f1f1;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.cities hr {
+    margin: 0 5% 1% 5%;
+}
+
+.cities ul {
+    margin: 0 5%;
+}
 
 /* Sign-up page */
 
