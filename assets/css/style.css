@@ -335,25 +335,34 @@ main {
 /*Destinations Page*/
 
 .cities {
+    padding: 10px;
+    border: 1px solid #81a59b;
+}
+
+.destinations-i {
+    margin: 0px;
+}
+
+.city-info {
     background-color: rgba(129, 165, 155, .6);
-    margin: 20px 10px;
+    margin: 20px 5px 20px 10px;
     border-radius: 20px;
     color: #f1f1f1;
     font-size: 80%;
 }
 
-.cities h4 {
+.city-info h4 {
     color: #f1f1f1;
     padding-bottom: 5px;
     text-transform: uppercase;
     text-align: center;
 }
 
-.cities hr {
+.city-info hr {
     margin: 0 5% 1% 5%;
 }
 
-.cities ul {
+.city-info ul {
     margin: 0 5%;
 }
 
@@ -704,6 +713,26 @@ nav {
 
 #cover-text {
     font-size: 300%;
+}
+
+/* Destinations page */
+
+.cities {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    border: 1px solid #81a59b;
+}
+
+.city-info {
+    flex-grow: 2;
+}
+
+.destinations-i {
+    margin: 20px 10px 20px 5px;
+    max-height: 350px;
+    max-width: 350px;
+    flex-grow: 2;
 }
 
 /*Sign up page*/
