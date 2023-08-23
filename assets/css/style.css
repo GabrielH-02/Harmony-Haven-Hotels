@@ -884,25 +884,27 @@ footer {
         justify-content: center;
         margin: 0;
     }
+}
 
 /* Media query: large devices (4k and larger, 1200px and up) */
 @media screen and (min-width: 1900px) {
-
+    
     header {
         font-size: 60%;
         padding: 15px 0;
     }
+
     /*About us section*/
     #couple-image-r {
         max-width: 700px;
         max-height: 700px;
     }
-    
+
     #section1 {
         font-size: 280%;
         padding: 20px;
     }
-    
+
     .section2 {
         font-size: 250%;
         padding: 20px 0;
@@ -912,5 +914,4 @@ footer {
     .cities {
         justify-content: space-between;
         margin-top: 20px;
-    }
-}
+    }}
