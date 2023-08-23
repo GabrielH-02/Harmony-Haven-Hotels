@@ -341,6 +341,7 @@ main {
 
 .destinations-i {
     margin: 0px;
+    margin-bottom: 20px;
 }
 
 .city-info {
@@ -349,6 +350,7 @@ main {
     border-radius: 20px;
     color: #f1f1f1;
     font-size: 80%;
+    margin: 5px ;
 }
 
 .city-info h4 {
@@ -356,14 +358,15 @@ main {
     padding-bottom: 5px;
     text-transform: uppercase;
     text-align: center;
+    font-size: 110%;
 }
 
 .city-info hr {
     margin: 0 5% 1% 5%;
 }
 
-.city-info ul {
-    margin: 0 5%;
+.city-points {
+    margin: 5%;
 }
 
 /* Images of the desinations */
@@ -432,7 +435,7 @@ main {
     background: url('../images/lima.webp') no-repeat top center / cover;
 }
 
-#rio-de-janerio-image {
+#rio-image {
     background: url('../images/rio-de-janerio.webp') no-repeat top center / cover;
 }
 
@@ -472,7 +475,6 @@ form {
     padding: 30px;
     margin:  2% 5% ;
 }
-
 
 .signup-form h3 {
     font-size: 300%;
@@ -725,14 +727,26 @@ nav {
 }
 
 .city-info {
-    flex-grow: 2;
+    flex-grow: 1;
+}
+
+.city-info ul {
+    font-size: 90%;
 }
 
 .destinations-i {
     margin: 20px 10px 20px 5px;
     max-height: 350px;
     max-width: 350px;
-    flex-grow: 2;
+    flex-grow: 5;
+}
+
+.one {
+    order: 2;
+}
+
+.two {
+    order: 1;
 }
 
 /*Sign up page*/
@@ -857,7 +871,19 @@ footer {
             padding: 50px;
             height: 500px;
         }
-}
+
+    /* Destinations page */
+    .destinations-i {
+        max-height: 550px;
+        max-width: 550px;
+    }
+
+    .city-points ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+    }
 
 /* Media query: large devices (4k and larger, 1200px and up) */
 @media screen and (min-width: 1900px) {
@@ -867,18 +893,24 @@ footer {
         padding: 15px 0;
     }
     /*About us section*/
-        #couple-image-r {
-            max-width: 700px;
-            max-height: 700px;
-        }
+    #couple-image-r {
+        max-width: 700px;
+        max-height: 700px;
+    }
     
-        #section1 {
-            font-size: 280%;
-            padding: 20px;
-        }
+    #section1 {
+        font-size: 280%;
+        padding: 20px;
+    }
     
-        .section2 {
-            font-size: 250%;
-            padding: 20px 0;
-        }
+    .section2 {
+        font-size: 250%;
+        padding: 20px 0;
+    }
+
+    /* Destinations page */
+    .cities {
+        justify-content: space-between;
+        margin-top: 20px;
+    }
 }
