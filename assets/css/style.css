@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+.gone {
+    display: none;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -699,8 +703,7 @@ footer>section{
 
 header{
     display: flex;
-    align-items: center;
-    justify-content: baseline;
+    align-items: center; 
     box-shadow: none;
 }
 
