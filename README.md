@@ -23,17 +23,17 @@ __The Header__
 * When viewed on a laptop or desktop or any device that uses a mouse to navigate through the page when hovered on the link the color will change to brighter. When the linked page is being viewed, the link will appear underlined and coloured. The Sign Up linked text appears to be coloured on tablets and larger devices.
   - This allows the user to see the current page in use, whilst also showing the user that the other links are interactive, therefore encouraging the user to explore the site more.
 
-![header-big]()
+![header-big](documentation/header-big.png)
 
 * On tablets and larger devices, the header will appear with all four linked text on the header but on smaller devices, the header will be seen as the title/logo to the left and icon toggle which will appear as a dropdown button.
   - This continues to be organized but also adapting to the change in device size. Thus adapting to the user's needs.
 
-![header-small]()
+![header-small](documentation/header-small.png)
 
 * The one exception to the header is on the landing page once the data of the sign-up page has been submitted, contains one link to the home page with an arrow icon to the left and the text ‘Home’.
   - This allows the user to simply note that on this page there is nothing to interact with, therefore returning the user to the home page to learn more.
 
-![header-signup]()
+![header-signup](documentation/header-signup.png)
 
 __The Footer__
 
@@ -43,12 +43,12 @@ __The Footer__
 * Like the links found in the header, links to the email address and phone number are constantly left highlighted. Also when the user uses a device that is directed by a mouse the text hovered over the text will grow lighter. On top of all this when the links for contact information are used the links then direct the user to the appropriate way to contact the company, for example, When the user clicks on the link to the email address this then opens the mail application and fills the ‘to’ input with the companies email address, and the same goes for the phone number it will automatically open the default application for calling.
   - This allows the user to have an interactive experience within the site and provides a clear indication that features can be interactive. The links also provide the user with a productive way of contacting the company.
 
-![footer-big]()
+![footer-big](documentation/footer-big.png)
 
 * Each aspect is correctly labelled to continue to provide a clear outline of the footer, however, the label for the social networks disappears once the screen size drops past a standard tablet device and the aspects then are stated into a column rather than a row. While also creating horizontal lines to divide the text more.
   - This aspect adapts to the user's needs to any device they use, as well as provides the user with a simplistic way of contacting and interacting with the company. As well as dividing the information separately.
 
-![footer-small]()
+![footer-small](documentation/footer-small.png)
 
 __The Cover Images/messages and Nav Bars__
 
@@ -58,14 +58,14 @@ __The Cover Images/messages and Nav Bars__
 * On both pages there is an image that is tailored to that specific page, for example on the destinations page the image is a bird eye view of someone working out a plan with a map. On top of that cover image is a message that adapts to the size of the image below it. It has a semi-transparent background colour, the text itself is cursive and contains a motivational quote such as “Choose Your Own Path!”. These features are most responsive to any size and move simultaneously.
   - This provides the user with a welcoming and motivational reaction when they first arrive on the page, therefore prompting them to become a member. Whilst also keeping a consistent look and feel for every page. This also provides the user with access to the site on any device. It covers the entire width of the page sets somewhat of a divide and blocks off and spaces out features of the page, therefore providing a simplistic look to the site.
 
-![cover-image-home]()
-![cover-image-destinations]()
+![cover-image-home](documentation/cover-image-home.png)
+![cover-image-destinations](documentation/cover-image-destinations.png)
 
 * Below both welcome images is a responsive navigation bar that directs the user to certain aspects of the page. Each is linked and when interacted with the page will smoothly scroll down to the linked section. These elements are specific for each of the pages and have the same hover feature as other linked text.
   - This continues to provide the user with an interactive and organized way of navigating through the page and also keeps a constant flow.
 
-![nav-bar-home]()
-![nav-bar-destinations]()
+![nav-bar-home](documentation/nav-bar-home.png)
+![nav-bar-destinations](documentation/nav-bar-destinations.png)
 
 __The Style__
 
@@ -107,7 +107,7 @@ __The Style__
   - There were errors, however, they have since been checked and adjusted. However, now there are no errors on any of the pages of the site when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 
 * CSS 
-  - There were errors, however, they have since been checked and adjusted. However, now there are no errors on any of the pages of the site when passing through the official[(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - There were errors, however, they have since been checked and adjusted. However, now there are no errors on any of the pages of the site when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
 * Accessibility
   - I have tested all the pages of the site to dev tools with Lighthouse, the font and colour contrast are all appropriate. All three pages got an accessibility source of 95%.
