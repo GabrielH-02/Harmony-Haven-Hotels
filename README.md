@@ -75,13 +75,13 @@ __The Style__
   - As a whole the site integrates square and circular aspects to feature. However, the site creates a modern and structured shape. For example, the images on a page are circular since this helps to break up the space around the image but makes it more inviting to look at for the user. Using circular elements within the site continues to provide the user with a calming effect.
   - The layout of the Home page and Destinations Page are relatively the same, but altered in various sections will colour, This keeps the style and colour consistent while also exploring the possibility of different tones and variations to the page to make them stand out more. This allows the user to experience a site that is consistent while also not being too consistent by making the pages identical to one another.  
 
-#### Home Page Features
+#### Home Page Features (to do)
 
-#### Destination Page Features
+#### Destination Page Features (to do)
 
-#### Sign-Up and Landing Page Features
+#### Sign-Up and Landing Page Features (to do)
 
-### Features Left to Implement
+### Features Left to Implement (to do)
 
 ## Languages and Resources
 
