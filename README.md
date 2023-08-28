@@ -105,20 +105,44 @@ __The Style__
 ### Validator Testing
 
 * CSS on the whole site:
-  - There were errors, however, they have since been checked and adjusted. However, now there are no errors on any of the pages of the site when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  * There were errors, however, they have since been checked and adjusted. However, now there are no errors on any of the pages of the site when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgabrielh-02.github.io%2FHarmony-Haven-Hotels%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ![vaildator result for css](documentation/css-result.png)
 
 * HTML on the whole site: 
-  - Home page: There were errors, however, they have since been checked and adjusted. However, now there are no errors on any of the pages of the site when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-  - Destinations page: There were errors, however, they have since been checked and adjusted. However, now there are no errors on any of the pages of the site when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-  - Sign Up page: There were errors, however, they have since been checked and adjusted. However, now there are no errors on any of the pages of the site when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-  - Landing page: There were errors, however, they have since been checked and adjusted. However, now there are no errors on any of the pages of the site when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  * Home page: There were errors, however, they have since been checked and adjusted. However, now there are no errors on any of the pages of the site when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgabrielh-02.github.io%2FHarmony-Haven-Hotels%2Findex.html)
+
+![vaildator result for html on home page](documentation/html-result.png)
+
+* Destinations page: There were errors, however, they have since been checked and adjusted. However, now there are no errors on any of the pages of the site when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgabrielh-02.github.io%2FHarmony-Haven-Hotels%2Fdestinations.html)
+  
+![vaildator result for html on destinations page](documentation/html-result.png)
+
+* Sign Up page: There were errors, however, they have since been checked and adjusted. However, now there are no errors on any of the pages of the site when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgabrielh-02.github.io%2FHarmony-Haven-Hotels%2Fsignup.html)
+
+![vaildator result for html on signup page](documentation/html-result.png)
+
+* Landing page: There were errors, however, they have since been checked and adjusted. However, now there are no errors on any of the pages of the site when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgabrielh-02.github.io%2FHarmony-Haven-Hotels%2Flanding.html)
+  
+![vaildator result for html on landing page](documentation/html-result.png)
 
 * Accessibility on the whole site
-  - I have tested all the pages of the site to dev tools with Lighthouse, the font and colour contrast are all appropriate. All three pages got an accessibility source of 95%.
 
-![accessibility-source]()
+- Home page: The page has been through the develoer tool Lighthouse on chrome, the accessibility score comes to 95%. 
+
+![accessibility-source on home page](documentation/lighthouse-home-results.png)
+
+* Destinations page: The page has been through the develoer tool Lighthouse on chrome, the accessibility score comes to 95%.
+  
+![accessibility-source on the destination page](documentation/lighthouse-destinations-results.png)
+
+- Sign Up page: The page has been through the develoer tool Lighthouse on chrome, the accessibility score comes to 96%.
+
+![accessibility-source on the sign-up page](documentation/lighthouse-signup-results.png)
+
+* Landing page: The page has been through the develoer tool Lighthouse on chrome, the accessibility score comes to 95%.
+
+![accessibility-source on the landing page](documentation/lighthouse-landing-results.png)
 
 ### Bugs
 
