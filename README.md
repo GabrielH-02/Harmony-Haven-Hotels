@@ -127,21 +127,13 @@ __The Style__
 ![vaildator result for html on landing page](documentation/html-result.png)
 
 * Accessibility on the whole site
-
-- Home page: The page has been through the develoer tool Lighthouse on chrome, the accessibility score comes to 95%. 
-
+  - Home page: The page has been through the develoer tool Lighthouse on chrome, the accessibility score comes to 95%. 
 ![accessibility-source on home page](documentation/lighthouse-home-results.png)
-
-* Destinations page: The page has been through the develoer tool Lighthouse on chrome, the accessibility score comes to 95%.
-  
+  - Destinations page: The page has been through the develoer tool Lighthouse on chrome, the accessibility score comes to 95%.
 ![accessibility-source on the destination page](documentation/lighthouse-destinations-results.png)
-
-- Sign Up page: The page has been through the develoer tool Lighthouse on chrome, the accessibility score comes to 96%.
-
+  - Sign Up page: The page has been through the develoer tool Lighthouse on chrome, the accessibility score comes to 96%.
 ![accessibility-source on the sign-up page](documentation/lighthouse-signup-results.png)
-
-* Landing page: The page has been through the develoer tool Lighthouse on chrome, the accessibility score comes to 95%.
-
+  - Landing page: The page has been through the develoer tool Lighthouse on chrome, the accessibility score comes to 95%.
 ![accessibility-source on the landing page](documentation/lighthouse-landing-results.png)
 
 ### Bugs
