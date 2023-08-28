@@ -104,13 +104,15 @@ __The Style__
 
 ### Validator Testing
 
-* CSS on the whole site:
-  * There were errors, however, they have since been checked and adjusted. However, now there are no errors on any of the pages of the site when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgabrielh-02.github.io%2FHarmony-Haven-Hotels%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+CSS on the whole site:
+
+* There were errors, however, they have since been checked and adjusted. However, now there are no errors on any of the pages of the site when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgabrielh-02.github.io%2FHarmony-Haven-Hotels%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ![vaildator result for css](documentation/css-result.png)
 
-* HTML on the whole site: 
-  * Home page: There were errors, however, they have since been checked and adjusted. However, now there are no errors on any of the pages of the site when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgabrielh-02.github.io%2FHarmony-Haven-Hotels%2Findex.html)
+HTML on the whole site: 
+
+* Home page: There were errors, however, they have since been checked and adjusted. However, now there are no errors on any of the pages of the site when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgabrielh-02.github.io%2FHarmony-Haven-Hotels%2Findex.html)
 
 ![vaildator result for html on home page](documentation/html-result.png)
 
@@ -126,20 +128,21 @@ __The Style__
   
 ![vaildator result for html on landing page](documentation/html-result.png)
 
-* Accessibility on the whole site
-  - Home page: The page has been through the develoer tool Lighthouse on chrome, the accessibility score comes to 95%. 
+Accessibility on the whole site
+
+* Home page: The page has been through the develoer tool Lighthouse on chrome, the accessibility score comes to 95%. 
 
 ![accessibility-source on home page](documentation/lighthouse-home-results.png)
   
-  - Destinations page: The page has been through the develoer tool Lighthouse on chrome, the accessibility score comes to 95%.
+* Destinations page: The page has been through the develoer tool Lighthouse on chrome, the accessibility score comes to 95%.
 
 ![accessibility-source on the destination page](documentation/lighthouse-destinations-results.png)
   
-  - Sign Up page: The page has been through the develoer tool Lighthouse on chrome, the accessibility score comes to 96%.
+* Sign Up page: The page has been through the develoer tool Lighthouse on chrome, the accessibility score comes to 96%.
 
 ![accessibility-source on the sign-up page](documentation/lighthouse-signup-results.png)
   
-  - Landing page: The page has been through the develoer tool Lighthouse on chrome, the accessibility score comes to 95%.
+* Landing page: The page has been through the develoer tool Lighthouse on chrome, the accessibility score comes to 95%.
 
 ![accessibility-source on the landing page](documentation/lighthouse-landing-results.png)
 
