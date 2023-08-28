@@ -4,7 +4,7 @@ Harmony Haven Hotels is a site that wishes to promote the use of the hotel’s p
 
 The site will be targeted to young travellers wishing to stay at safe and luxurious hotels at a constant price and quality. The user will be able to find out all the information they need about the programmes and how to become a member of Harmony Haven Hotels. This is done by the use of the three major interactive pages of Harmony Haven Hotels website. The site contains a ‘Home’ page, a ‘Destinations’ page and a ’Sign-up’ page accompanied by a landing page once the data for the sign-up page has been submitted. The home page contains information about Harmony Haven Hotels and its origins, the deals and offers the site provides and a section of comments reviewing the service from fellow young travellers. The site uses interactive and stylistic choices to encourage the user to achieve their own goals as well as the site's owner. Harmony Haven Hotels will be useful for travellers to see and join a service that can help them on their travels.
 
-![responsive-image]()
+![responsive-image](documentation/i-am-repsonsive-hhh.png)
 
 ## Features
 
