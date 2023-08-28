@@ -8,7 +8,7 @@ The site will be targeted to young travellers wishing to stay at safe and luxuri
 
 ### Existing Features
 
-#### General Features
+#### **General Features**
 
 __The Header__
 
