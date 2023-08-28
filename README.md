@@ -67,14 +67,14 @@ __The Style__
 
 ## Languages and Resources
 
-* [HTML5](https://html.spec.whatwg.org/multipage/)- Markup language which makes up the content of the site.
-* [CSS3](https://www.w3.org/TR/css-2022/)- Used to style the whole site.
-* [FontAwesome](https://fontawesome.com/)-Linked for all icons used on the site
-* [Google Fonts](https://fonts.google.com/)-Source of the site’s fonts.
-* [GitHub](https://github.com/)-Repository for the site’s code.
-* [Codeanywhere](https://www.codecademy.com/)-IDE used to write the site.
-* [HTML Validator](https://validator.w3.org/)-Used to check and validate the HTML code used in the site.
-* [CSS Validator](https://jigsaw.w3.org/css-validator/)-Used to check and validate the CSS code used in the site.
+* [HTML5](https://html.spec.whatwg.org/multipage/)  -Markup language which makes up the content of the site.
+* [CSS3](https://www.w3.org/TR/css-2022/)   -Used to style the whole site.
+* [FontAwesome](https://fontawesome.com/)   -Linked for all icons used on the site
+* [Google Fonts](https://fonts.google.com/) -Source of the site’s fonts.
+* [GitHub](https://github.com/) -Repository for the site’s code.
+* [Codeanywhere](https://www.codecademy.com/)   -IDE used to write the site.
+* [HTML Validator](https://validator.w3.org/)   -Used to check and validate the HTML code used in the site.
+* [CSS Validator](https://jigsaw.w3.org/css-validator/) -Used to check and validate the CSS code used in the site.
 
 ## Testing
 
@@ -86,12 +86,13 @@ __The Style__
 
 ### Validator Testing
 * HTML 
- - There were errors, however, they have since been checked and adjusted. However, now there are no errors on any of the pages of the site when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - There were errors, however, they have since been checked and adjusted. However, now there are no errors on any of the pages of the site when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 
 * CSS 
   - There were errors, however, they have since been checked and adjusted. However, now there are no errors on any of the pages of the site when passing through the official[(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
-Accessibility: I have tested all the pages of the site to dev tools with Lighthouse, the font and colour contrast are all appropriate. All three pages got an accessibility source of 95%.
+* Accessibility
+  - I have tested all the pages of the site to dev tools with Lighthouse, the font and colour contrast are all appropriate. All three pages got an accessibility source of 95%.
 
 ### Bugs
 
