@@ -103,13 +103,19 @@ __The Style__
 * Finally, I have made sure that the form inputs are required and only the appropriate value for the form to be submitted. I have done this by removing the temporary ‘Let’s go’ button with a submit input, and it confirms that the other inputs work perfectly.
 
 ### Validator Testing
-* HTML 
-  - There were errors, however, they have since been checked and adjusted. However, now there are no errors on any of the pages of the site when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 
-* CSS 
+* CSS on the whole site:
   - There were errors, however, they have since been checked and adjusted. However, now there are no errors on any of the pages of the site when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
-* Accessibility
+![vaildator result for css](documentation/css-result.png)
+
+* HTML on the whole site: 
+  - Home page: There were errors, however, they have since been checked and adjusted. However, now there are no errors on any of the pages of the site when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - Destinations page: There were errors, however, they have since been checked and adjusted. However, now there are no errors on any of the pages of the site when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - Sign Up page: There were errors, however, they have since been checked and adjusted. However, now there are no errors on any of the pages of the site when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - Landing page: There were errors, however, they have since been checked and adjusted. However, now there are no errors on any of the pages of the site when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+
+* Accessibility on the whole site
   - I have tested all the pages of the site to dev tools with Lighthouse, the font and colour contrast are all appropriate. All three pages got an accessibility source of 95%.
 
 ![accessibility-source]()
