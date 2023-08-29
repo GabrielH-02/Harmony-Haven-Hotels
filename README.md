@@ -38,14 +38,14 @@ __The Header__
 __The Footer__
 
 * On all pages of the site, the footer is present keeping the same view for all pages. The footer contains two major aspects; contact information- with an email address and a phone number. As well as icons that link and open in a new tab to four different social networks such as Facebook, Twitter, Youtube, and Instagram.
-  - This allows the user to explore and learn more about the server through social networks which is a comfortable portal for the chosen user audience, being young travelers as well as keeping a basic contact information section too.
+  - This allows the user to explore and learn more about the server through social networks which is a comfortable portal for the chosen user audience, being young travellers as well as keeping a basic contact information section.
 
 * Like the links found in the header, links to the email address and phone number are constantly left highlighted. Also when the user uses a device that is directed by a mouse the text hovered over the text will grow lighter. On top of all this when the links for contact information are used the links then direct the user to the appropriate way to contact the company, for example, When the user clicks on the link to the email address this then opens the mail application and fills the ‘to’ input with the companies email address, and the same goes for the phone number it will automatically open the default application for calling.
   - This allows the user to have an interactive experience within the site and provides a clear indication that features can be interactive. The links also provide the user with a productive way of contacting the company.
 
 ![footer-big](documentation/footer-big.png)
 
-* Each aspect is correctly labelled to continue to provide a clear outline of the footer, however, the label for the social networks disappears once the screen size drops past a standard tablet device and the aspects then are stated into a column rather than a row. While also creating horizontal lines to divide the text more.
+* Each aspect is correctly labelled to continue to provide a clear outline of the footer, however, the label for the social networks disappears once the screen size drops past a standard tablet device and the aspects then are stated in a column rather than a row. While also creating horizontal lines to divide the text more.
   - This aspect adapts to the user's needs to any device they use, as well as provides the user with a simplistic way of contacting and interacting with the company. As well as dividing the information separately.
 
 ![footer-small](documentation/footer-small.png)
@@ -73,7 +73,7 @@ __The Style__
   - The fonts of the site are all imported from Google Fonts and are kept to a minimum of three fonts. ‘Kadwa’ is for the major headings, ‘Bitter’ is for the body text and ‘Dancing-script’ is used for motivational quotes of the cover images for example. This allows the viewer to correctly identify the structure of the site. As well as keep a variation in the display.  
   - The colours of the site are kept to a minimum of three the major colours are #f1f1f1 (an off-white colour), #3a3a3a (an off-black colour), and #81a59b (a neutral duck-egg blue). The feature colour is duck-egg blue, it is the primary colour of the site and acts as a feature colour. Any other colour is a variety of duck-egg colours. This keeps a simplistic colour scheme that resembles calm natural tones that match the feeling of calm and peaceful holidays. Therefore this helps the user to experience a calming site with neutral colors, therefore prompting the user to become a member of a calm and peaceful holiday service.
   - As a whole the site integrates square and circular aspects to feature. However, the site creates a modern and structured shape. For example, the images on a page are circular since this helps to break up the space around the image but makes it more inviting to look at for the user. Using circular elements within the site continues to provide the user with a calming effect.
-  - The layout of the Home page and Destinations Page are relatively the same, but altered in various sections will colour, This keeps the style and colour consistent while also exploring the possibility of different tones and variations to the page to make them stand out more. This allows the user to experience a site that is consistent while also not being too consistent by making the pages identical to one another.  
+  - The layout of the Home page and Destinations Page are relatively the same, but altered in various sections with colour, This keeps the style and colour consistent while also exploring the possibility of different tones and variations to the page to make them stand out more. This allows the user to experience a site that is consistent while also not being too consistent by making the pages identical to one another.  
 
 #### Home Page Features
 
@@ -136,20 +136,20 @@ __Sign Up form__
 
 ![signup-form](documentation/signup-form-signup.png)
 
-* Once all data has been filled in it is ready to be submitted. Using the ‘Let’s Go!’ button, (which will be adjusted for future feature implementation) the button will link to a landing page. Once on this page it strongly resembles the signup page, this was designed to be consistent with the signup page. This is to show the user that these two pages are connected. The only difference between the two is the cover text, which is larger and which clearly provides the user with confirmation that the data has been submitted.
+* Once all data has been filled in it is ready to be submitted. Using the ‘Let’s Go!’ button, (which will be adjusted for future feature implementation) the button will link to a landing page. Once on this page it strongly resembles the signup page, this was designed to be consistent with the signup page. This is to show the user that these two pages are connected. The only difference between the two is the cover text, which is larger and which provides the user with confirmation that the data has been submitted.
 
 ![cover-text-landing](documentation/cover-text-landing.png)
 
 ### Features Left to Implement
 
 __Slideshow features__
-* In the future I would like to adjust the image block found on the home page. The future implementation would be a Java Script code so that it would be interactive slideshow of different locations, as well as a timed slideshow so that images flip independently. 
+* In the future I would like to adjust the image block found on the home page. The future implementation would be a JavaScript code so that it would be an interactive slideshow of different locations, as well as a timed slideshow so that images flip independently. 
 
 __A booking system__
-* On the destinations page I would like to implement a interactive Java Script map of the world, so when clicked on a location the infomation of that location will appear. As well as this I would like to add a booking system to book on certain locations.
+* On the destinations page I would like to implement an interactive Java Script map of the world, so when clicked on a location the information of that location will appear. As well as this I would like to add a booking system to book on certain locations.
 
 __Submit Button__
-* Currently on the sign up page the button to submit the data is a anchor element, so in future implementations I would consider using a submit button in order for the sign form to work. For this to work I would need to set up a server.
+* Currently on the signup page the button to submit the data is an anchor element, so in future implementations, I would consider using a submit button for the sign form to work. For this to work I would need to set up a server.
 
 ## Languages and Resources
 
@@ -188,7 +188,7 @@ HTML on the whole site:
   
 ![vaildator result for html on destinations page](documentation/html-result.png)
 
-* Sign Up page: There were errors, however, they have since been checked and adjusted. However, now there are no errors on any of the pages of the site when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgabrielh-02.github.io%2FHarmony-Haven-Hotels%2Fsignup.html)
+* Sign-up page: There were errors, however, they have since been checked and adjusted. However, now there are no errors on any of the pages of the site when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgabrielh-02.github.io%2FHarmony-Haven-Hotels%2Fsignup.html)
 
 ![vaildator result for html on signup page](documentation/html-result.png)
 
@@ -198,19 +198,19 @@ HTML on the whole site:
 
 Accessibility on the whole site
 
-* Home page: The page has been through the develoer tool Lighthouse on chrome, the accessibility score comes to 95%. 
+* Home page: The page has been through the developer tool Lighthouse on Chrome, the accessibility score comes to 95%. 
 
 ![accessibility-source on home page](documentation/lighthouse-home-results.png)
   
-* Destinations page: The page has been through the develoer tool Lighthouse on chrome, the accessibility score comes to 95%.
+* Destinations page: The page has been through the developer tool Lighthouse on Chrome, and the accessibility score comes to 95%.
 
 ![accessibility-source on the destination page](documentation/lighthouse-destinations-results.png)
   
-* Sign Up page: The page has been through the develoer tool Lighthouse on chrome, the accessibility score comes to 96%.
+* Sign Up page: The page has been through the developer tool Lighthouse on Chrome, the accessibility score comes to 96%.
 
 ![accessibility-source on the sign-up page](documentation/lighthouse-signup-results.png)
   
-* Landing page: The page has been through the develoer tool Lighthouse on chrome, the accessibility score comes to 95%.
+* Landing page: The page has been through the developer tool Lighthouse on Chrome, the accessibility score comes to 95%.
 
 ![accessibility-source on the landing page](documentation/lighthouse-landing-results.png)
 
@@ -220,7 +220,7 @@ Accessibility on the whole site
 * Whilst in the process of testing I found some bugs/ errors in code on the site;
 * The Deals and Offers link on the specific navigation bar on the homepage was not linking to the section on the page therefore it needed to be adjusted with the proper id value.
 * Another error that appeared was the fact that in my final unvalidated version of the site, I used aria-labeled values on the divs with the links to images on the style sheet however this was incorrect therefore I removed these labels
-* Whilst testing, errors came up in concern to section values with no heading values, thus adding these headings, however, added a hidden class in the stylesheet so that these headings would be hidden and wouldn't affect the final version.
+* Whilst testing, errors came up in concern to section values with no heading values, adding these headings, however, added a hidden class in the stylesheet so that these headings would be hidden and wouldn't affect the final version.
 
 #### Unfixed Bugs
 * There are no unfixed bugs, the only concern is that on the sign-up page, the “Submit” button is a linked text item that appears to be a button that only directs the user to a landing page.
