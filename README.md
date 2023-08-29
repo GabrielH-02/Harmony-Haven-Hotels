@@ -78,75 +78,78 @@ __The Style__
 #### Home Page Features
 
 __The About Us Section__
-The About Us section is the opening feature of the home page. It features a heading, two paragraphs and a circular image of the couple to the right. When viewed on a tablet or larger devices the image will always take up 50% of the screen and the text wraps around the image. However, the font size and image size depend on the screen size. Another aspect within the paragraph is two anchor elements that link to other sections within the page. The About Us section was of utmost importance to the home page.
+* The About Us section is the opening feature of the home page. It features a heading, two paragraphs and a circular image of the couple to the right. When viewed on a tablet or larger devices the image will always take up 50% of the screen and the text wraps around the image. However, the font size and image size depend on the screen size. Another aspect within the paragraph is two anchor elements that link to other sections within the page. The About Us section was of utmost importance to the home page.
 
-The About Us section allows the user to investigate and understand more about the goal of the company as well as the site’s purpose so that they can understand if this site will help them achieve their goal. The circular image creates a neutral and calming site environment. The image allows the user to have a visual representation of the owners of the site, which makes the exchange of information between the site owner and external user to be more of a conversation. Thus the image is as important as the text, so in concern of responsive design, the image always takes up the same space as the text. When the screen size of the devices goes below the size of a standard tablet the text becomes above the image in the column rather than a row, this is to ensure the user has a clear understanding and flow through the page. The anchor elements also provide the user with a direct and efficient way through the page, thus the colour draws the attention to the user that these pieces of text can be interacted with. To conclude the ‘About Us’ section is of importance to the whole site for it provides an overview of the purpose of the company and the site.  
+* The About Us section allows the user to investigate and understand more about the goal of the company as well as the site’s purpose so that they can understand if this site will help them achieve their goal. The circular image creates a neutral and calming site environment. The image allows the user to have a visual representation of the owners of the site, which makes the exchange of information between the site owner and external user to be more of a conversation. Thus the image is as important as the text, so in concern of responsive design, the image always takes up the same space as the text. When the screen size of the devices goes below the size of a standard tablet the text becomes above the image in the column rather than a row, this is to ensure the user has a clear understanding and flow through the page. The anchor elements also provide the user with a direct and efficient way through the page, thus the colour draws the attention to the user that these pieces of text can be interacted with. To conclude the ‘About Us’ section is of importance to the whole site for it provides an overview of the purpose of the company and the site.  
 
 ![about-us-home](documentation/about-us-home.png)
 
 __Deals and Offers Section__
-In concern to the ‘Deals and Offers’ section, is to be considered as one of the most important aspects of the whole site. It contains a heading and two boxes containing the offers themselves.
+* In concern to the ‘Deals and Offers’ section, is to be considered as one of the most important aspects of the whole site. It contains a heading and two boxes containing the offers themselves.
 
-It was important to provide the user with a clear understanding of the deals available, therefore the use of a bold heading and clear bullet points were essential. The user needs to be informed about what is available, where they can go, and how they can become a member. All of these questions were provided.
+* It was important to provide the user with a clear understanding of the deals available, therefore the use of a bold heading and clear bullet points were essential. The user needs to be informed about what is available, where they can go, and how they can become a member. All of these questions were provided.
 
-The ‘Or’ text between the two options was applied to ensure the user has an understanding of the two separate programs, and to continue this separation are the borders found around the options.
+* The ‘Or’ text between the two options was applied to ensure the user has an understanding of the two separate programs, and to continue this separation are the borders found around the options.
 
-As well as this the colour of the boxes was changed since this is one of the most essential parts of the site it needed to stand out from other sections found on the site. Therefore the deals and offers section uses colour and background colour to create a difference between the sections, this allows the user to rightly identify certain sections of the page.
+* As well as this the colour of the boxes was changed since this is one of the most essential parts of the site it needed to stand out from other sections found on the site. Therefore the deals and offers section uses colour and background colour to create a difference between the sections, this allows the user to rightly identify certain sections of the page.
 
-At the bottom of the boxes of the deals is an anchor element that leads the user to the signup page. The colour is brighter than the normal text to inform the user that this aspect of the page can be interacted with. This continues to promote the user to become a member which therefore achieves the site owner's goal.
+* At the bottom of the boxes of the deals is an anchor element that leads the user to the signup page. The colour is brighter than the normal text to inform the user that this aspect of the page can be interacted with. This continues to promote the user to become a member which therefore achieves the site owner's goal.
 
 ![deals-and-offers-home](documentation/deals-&-offers-home.png)
 
 __Image Section__
-This is the image section within the home page. It is used to create a visual representation of what the user could be booking if they become a member. This feature not only acts as visual motivation but provides a block divide between the ‘Deals and Offers’ and ‘Reviews’ which also allows the user to understand the content of the page once the text has been spaced out from one another. There may be future features to implement here.
+* This is the image section within the home page. It is used to create a visual representation of what the user could be booking if they become a member. This feature not only acts as visual motivation but provides a block divide between the ‘Deals and Offers’ and ‘Reviews’ which also allows the user to understand the content of the page once the text has been spaced out from one another. There may be future features to implement here.
 
 ![image block](documentation/slideshow-home.png)
 
 __Review Section__
-The review section was another feature to be included as it was important to the site’s owner's goal to receive more memberships. Providing reviews from former travellers who have used this hotel service. This gives the user assurance of the hotel service thus encouraging them to sign up for membership.
+* The review section was another feature to be included as it was important to the site’s owner's goal to receive more memberships. Providing reviews from former travellers who have used this hotel service. This gives the user assurance of the hotel service thus encouraging them to sign up for membership.
 
-Since the comments from former travellers are rather short it was important to be efficient with the space they take up on the page on a mobile device they appear stacked on top of one another, in a column. In concern to responsive design once the user's screen grows from mobile the reviews are evenly spread across the screen. So once the screen reaches the laptop or desktop all the reviews appear in a row. This was to make sure that reviews stand as a collective rather than individual reviews. Since this is important to the user, on their initial view of the page, the reviews can be together.
+* Since the comments from former travellers are rather short it was important to be efficient with the space they take up on the page on a mobile device they appear stacked on top of one another, in a column. In concern to responsive design once the user's screen grows from mobile the reviews are evenly spread across the screen. So once the screen reaches the laptop or desktop all the reviews appear in a row. This was to make sure that reviews stand as a collective rather than individual reviews. Since this is important to the user, on their initial view of the page, the reviews can be together.
 
 ![reviews-home-medium](documentation/reviews-home.png)
 
-Yet again colors have been reimagined in a different style giving this section its individuality whilst also staying consistent with the style of the site. This consistent environment provides the user with a great deal of comfort and flow of the page.
+* Yet again colors have been reimagined in a different style giving this section its individuality whilst also staying consistent with the style of the site. This consistent environment provides the user with a great deal of comfort and flow of the page.
 
 ![reviews-home-larger](documentation/reviews-larger-home.png)
 
-In each of the reviews is a heading containing the former traveller's name and age, a circular image of the former traveller and a personal comment provided by the former traveller. This provides the user with information about the service from different sources, which provides reliability thus prompting the user to sign up.  The name,  age and image continue to provide the user with a conversational interaction and provide potential users with references that help them reach a decision based on similarities between themselves and the former travellers found on the page.
+* In each of the reviews is a heading containing the former traveller's name and age, a circular image of the former traveller and a personal comment provided by the former traveller. This provides the user with information about the service from different sources, which provides reliability thus prompting the user to sign up.  The name,  age and image continue to provide the user with a conversational interaction and provide potential users with references that help them reach a decision based on similarities between themselves and the former travellers found on the page.
 
 #### Destination Page Features
 
 __Continents Section__
-Within the destinations, there are six continent sections, containing three possible destinations in that continent. Within these destinations is a circular image of the destination and a box description of the destination.  
+* Within the destinations, there are six continent sections, containing three possible destinations in that continent. Within these destinations is a circular image of the destination and a box description of the destination.  
 
-It was essential to separate the continents with headings, to contain its content. To add to this a small borderline for each destination was created.
+* It was essential to separate the continents with headings, to contain its content. To add to this a small borderline for each destination was created.
 The destination page continues to stick to a similar style. Each description of every destination is clear and concise to the user. This was done with an underlined heading of the destination and bullet points with the features of the possible hotel.
 
-In concern to responsive design when viewed on a mobile device the text box is stated above the image to continue the trend of an organised page. However, when viewed on tablets and larger devices the image and text box appear in a row and the order of image and text alternate, this creates an organised flow to the page when seen on larger devices and keeps the site interesting to the user.
+* In concern to responsive design when viewed on a mobile device the text box is stated above the image to continue the trend of an organised page. However, when viewed on tablets and larger devices the image and text box appear in a row and the order of image and text alternate, this creates an organised flow to the page when seen on larger devices and keeps the site interesting to the user.
 
 ![continent-section](documentation/continent-destinations.png)
 
 #### Sign-Up and Landing Page Features
 
 __Sign Up form__
-The signup form is one of the most important features of the whole site since it is the main aspect that achieves the site owner's goal of creating more memberships. Therefore the signup form was created to be as welcoming as possible. The whole page is covered with an image of a cliff side with a path down which reflects the quote on the top of the form. The tones in the images also match those of the chosen colours for the whole site.  The heading on the page matches the cover image of the other pages, this continues to be consistent and creates a calming and motivational environment.
+* The signup form is one of the most important features of the whole site since it is the main aspect that achieves the site owner's goal of creating more memberships. Therefore the signup form was created to be as welcoming as possible. The whole page is covered with an image of a cliff side with a path down which reflects the quote on the top of the form. The tones in the images also match those of the chosen colours for the whole site.  The heading on the page matches the cover image of the other pages, this continues to be consistent and creates a calming and motivational environment.
 
-The form stays in the center of the page still this draws the user to the form rather than the image. The form keeps a clear and organised flow to ensure the user submits all the required data. All inputs are mandatory and necessary for the company to understand the request.
+* The form stays in the center of the page still this draws the user to the form rather than the image. The form keeps a clear and organised flow to ensure the user submits all the required data. All inputs are mandatory and necessary for the company to understand the request.
 
 ![signup-form](documentation/signup-form-signup.png)
 
-Once all data has been filled in it is ready to be submitted. Using the ‘Let’s Go!’ button, (which will be adjusted for future feature implementation) the button will link to a landing page. Once on this page it strongly resembles the signup page, this was designed to be consistent with the signup page. This is to show the user that these two pages are connected. The only difference between the two is the cover text, which is larger and which clearly provides the user with confirmation that the data has been submitted.
+* Once all data has been filled in it is ready to be submitted. Using the ‘Let’s Go!’ button, (which will be adjusted for future feature implementation) the button will link to a landing page. Once on this page it strongly resembles the signup page, this was designed to be consistent with the signup page. This is to show the user that these two pages are connected. The only difference between the two is the cover text, which is larger and which clearly provides the user with confirmation that the data has been submitted.
 
 ![cover-text-landing](documentation/cover-text-landing.png)
 
 ### Features Left to Implement
 
 __Slideshow features__
+* In the future I would like to adjust the image block found on the home page. The future implementation would be a Java Script code so that it would be interactive slideshow of different locations, as well as a timed slideshow so that images flip independently. 
 
 __A booking system__
+* On the destinations page I would like to implement a interactive Java Script map of the world, so when clicked on a location the infomation of that location will appear. As well as this I would like to add a booking system to book on certain locations.
 
 __Submit Button__
+* Currently on the sign up page the button to submit the data is a anchor element, so in future implementations I would consider using a submit button in order for the sign form to work. For this to work I would need to set up a server.
 
 ## Languages and Resources
 
