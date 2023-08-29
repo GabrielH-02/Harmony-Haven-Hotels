@@ -134,9 +134,9 @@ The signup form is one of the most important features of the whole site since it
 
 The form stays in the center of the page still this draws the user to the form rather than the image. The form keeps a clear and organised flow to ensure the user submits all the required data. All inputs are mandatory and necessary for the company to understand the request.
 
-Once all data has been filled in it is ready to be submitted. Using the ‘Let’s Go!’ button, (which will be adjusted for future feature implementation) the button will link to a landing page. Once on this page it strongly resembles the signup page, this was designed to be consistent with the signup page. This is to show the user that these two pages are connected. The only difference between the two is the cover text, which is larger and which clearly provides the user with confirmation that the data has been submitted.
-
 ![signup-form](documentation/signup-form-signup.png)
+
+Once all data has been filled in it is ready to be submitted. Using the ‘Let’s Go!’ button, (which will be adjusted for future feature implementation) the button will link to a landing page. Once on this page it strongly resembles the signup page, this was designed to be consistent with the signup page. This is to show the user that these two pages are connected. The only difference between the two is the cover text, which is larger and which clearly provides the user with confirmation that the data has been submitted.
 
 ![cover-text-landing](documentation/cover-text-landing.png)
 
