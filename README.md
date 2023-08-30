@@ -1,8 +1,10 @@
 # Harmony Haven Hotels
 
-Harmony Haven Hotels is a site that wishes to promote the use of the hotel’s programs. Harmony Haven Hotels is a hotel chain that has multiple hotels across six continents, and a major problem for young travellers when travelling the world is the constant change in quality and price in hotels. Therefore Harmony Haven Hotels have two major programs to choose from that allow users to pay a monthly fee to stay at any Harmony Haven Hotel across the world. Thus through the use of the site Harmony Haven Hotels can promote their programmes. The goal of the site is to promote and increase the number of members.
+Harmony Haven Hotels is a site that wishes to promote the use of its hotel’s programs. Harmony Haven Hotels is a hotel chain that has multiple hotels across six continents, and a major problem for young travellers when travelling the world is the constant change in quality and price in hotels. Therefore Harmony Haven Hotels has two major programs to choose from. This will allow users to pay a monthly fee to stay at any Harmony Haven Hotel across the world. Through the use of the site, Harmony Haven Hotels can promote its programmes. The goal of the site is to promote and increase the number of members.
 
-The site will be targeted to young travellers wishing to stay at safe and luxurious hotels at a constant price and quality. The user will be able to find out all the information they need about the programmes and how to become a member of Harmony Haven Hotels. This is done by the use of the three major interactive pages of Harmony Haven Hotels website. The site contains a ‘Home’ page, a ‘Destinations’ page and a ’Sign-up’ page accompanied by a landing page once the data for the sign-up page has been submitted. The home page contains information about Harmony Haven Hotels and its origins, the deals and offers the site provides and a section of comments reviewing the service from fellow young travellers. The site uses interactive and stylistic choices to encourage the user to achieve their own goals as well as the site's owner. Harmony Haven Hotels will be useful for travellers to see and join a service that can help them on their travels.
+The site will be targeted to young travellers wishing to stay at safe and luxurious hotels at a constant price and quality. The user will be able to find out all the information they need about the programmes and how to become a member at Harmony Haven Hotels. This is done by the use of the three major interactive pages of Harmony Haven Hotels website. The site contains a ‘Home’ page, a ‘Destinations’ page and a ’Sign-up’ page accompanied by a landing page once the data for the sign-up page has been submitted. The home page contains information about Harmony Haven Hotels and its origins, the deals and offers the site provides and a section of comments reviewing the service from fellow young travellers. The destinations page contains six sections all labelled with the name of the continent, within each section, are three cities/destinations. The final page is the most important for the site owner's goal, which is the signup page. The signup page contains a form that contains all valid inputs for the user to interact with. Once this data has been submitted through the use of the submit button the user will be transferred to a landing page allowing the user to understand their data has been submitted.
+
+The site uses interactive and stylistic choices to encourage the user to achieve their own goals as well as the site's owner. Harmony Haven Hotels will be useful for travellers to see and join a service that can help them on their travels.
 
 ![responsive-image](documentation/i-am-repsonsive-hhh.png)
 
@@ -17,11 +19,11 @@ __The Header__
 * Featured on all three major pages of the site, it is fully responsive to all devices and includes a central navigation bar. It includes four links, Logo, Home page, Destinations page, and Sign up page. 
   - This keeps an organized, simple and consistent look for the website making it easy for the user to navigate through the page on all devices.
 
-* The title/logo of the site is on the left and links to the home page. Through it links to the home page there is also another link to the right which is for the home page too. The other two are for the destinations page and the signup page
+* The title/logo of the site is on the left and links to the home page. Through it links to the home page there is also another link to the right which is for the home page too. The other two are for the destinations page and the signup page.
   - This continues to be consistent for the user and makes it easy and simple to use.
 
-* When viewed on a laptop or desktop or any device that uses a mouse to navigate through the page when hovered on the link the color will change to brighter. When the linked page is being viewed, the link will appear underlined and coloured. The Sign Up linked text appears to be coloured on tablets and larger devices.
-  - This allows the user to see the current page in use, whilst also showing the user that the other links are interactive, therefore encouraging the user to explore the site more.
+* When viewed on a laptop or desktop or any device that uses a mouse to navigate through the page, when hovered over the link the colour will change brighter. When the linked page is being viewed, the link will appear underlined and coloured. The Sign Up linked text appears to be coloured on tablets and larger devices, and almost in the form of a button.
+  - This allows the user to see the current page in use, whilst also showing the user that the other links are interactive, therefore encouraging the user to explore the site more. The signup page link is different from the others for this is the most important page of the site and it makes the link stand out compared to the others, when hovered over the colours invert, making the site even more interactive.
 
 ![header-big](documentation/header-big.png)
 
@@ -30,7 +32,7 @@ __The Header__
 
 ![header-small](documentation/header-small.png)
 
-* The one exception to the header is on the landing page once the data of the sign-up page has been submitted, contains one link to the home page with an arrow icon to the left and the text ‘Home’.
+* The one exception to the header is on the landing page once the data of the sign-up page has been submitted. The header contains one link to the home page with an arrow icon to the left and the text ‘Home’.
   - This allows the user to simply note that on this page there is nothing to interact with, therefore returning the user to the home page to learn more.
 
 ![header-signup](documentation/header-signup.png)
@@ -38,15 +40,15 @@ __The Header__
 __The Footer__
 
 * On all pages of the site, the footer is present keeping the same view for all pages. The footer contains two major aspects; contact information- with an email address and a phone number. As well as icons that link and open in a new tab to four different social networks such as Facebook, Twitter, Youtube, and Instagram.
-  - This allows the user to explore and learn more about the server through social networks which is a comfortable portal for the chosen user audience, being young travellers as well as keeping a basic contact information section.
+  - This allows the user to explore and learn more about the server through social networks which is a comfortable portal for the chosen user audience as well as keeping a basic contact information section.
 
-* Like the links found in the header, links to the email address and phone number are constantly left highlighted. Also when the user uses a device that is directed by a mouse the text hovered over the text will grow lighter. On top of all this when the links for contact information are used the links then direct the user to the appropriate way to contact the company, for example, When the user clicks on the link to the email address this then opens the mail application and fills the ‘to’ input with the companies email address, and the same goes for the phone number it will automatically open the default application for calling.
+* Like the links found in the header, links to the email address and phone number are constantly left highlighted. Also when the user uses a device that is directed by a mouse the text when hovered over will glow lighter. On top of all this when the links for contact information are used the links then direct the user to the appropriate way to contact the company. For example, when the user clicks on the link to the email address this then opens the mail application and fills the ‘to’ input with the company's email address, and the same goes for the phone number it will automatically open the default application for calling.
   - This allows the user to have an interactive experience within the site and provides a clear indication that features can be interactive. The links also provide the user with a productive way of contacting the company.
 
 ![footer-big](documentation/footer-big.png)
 
-* Each aspect is correctly labelled to continue to provide a clear outline of the footer, however, the label for the social networks disappears once the screen size drops past a standard tablet device and the aspects then are stated in a column rather than a row. While also creating horizontal lines to divide the text more.
-  - This aspect adapts to the user's needs to any device they use, as well as provides the user with a simplistic way of contacting and interacting with the company. As well as dividing the information separately.
+* Each aspect is correctly labelled to continue to provide a clear outline and structure of the footer. However, the label for the social networks disappears once the screen size drops past a standard tablet device and the aspects then are stated in a column rather than a row. While also creating horizontal lines to divide the text more.
+  - This aspect adapts to the user's needs to any device they use, as well as provides the user with a simplistic way of contacting and interacting with the company by dividing the information separately.
 
 ![footer-small](documentation/footer-small.png)
 
@@ -55,7 +57,7 @@ __The Cover Images/messages and Nav Bars__
 * The two main information pages (home page and destinations page), start with a cover image with a cover text message and directly below it is a navigation bar that directs links to sections found on that specific page.
   - This keeps a consistent and welcoming look to the initial view of the page.
 
-* On both pages there is an image that is tailored to that specific page, for example on the destinations page the image is a bird eye view of someone working out a plan with a map. On top of that cover image is a message that adapts to the size of the image below it. It has a semi-transparent background colour, the text itself is cursive and contains a motivational quote such as “Choose Your Own Path!”. These features are most responsive to any size and move simultaneously.
+* On both pages there is an image that is tailored to that specific page, for example on the destinations page the image is a birds-eye view of someone working out a plan with a map. On top of that cover image is a message that adapts to the size of the image below it. It has a semi-transparent background colour, and the text itself is cursive and contains a motivational quote such as “Choose Your Own Path!”. These features are all responsive to any size and move simultaneously.
   - This provides the user with a welcoming and motivational reaction when they first arrive on the page, therefore prompting them to become a member. Whilst also keeping a consistent look and feel for every page. This also provides the user with access to the site on any device. It covers the entire width of the page sets somewhat of a divide and blocks off and spaces out features of the page, therefore providing a simplistic look to the site.
 
 ![cover-image-home](documentation/cover-image-home.png)
@@ -70,15 +72,15 @@ __The Cover Images/messages and Nav Bars__
 __The Style__
 
 * The style of the site is kept consistent and clear. Throughout the site, it keeps the same fonts, colours, shapes, and layout.
-  - The fonts of the site are all imported from Google Fonts and are kept to a minimum of three fonts. ‘Kadwa’ is for the major headings, ‘Bitter’ is for the body text and ‘Dancing-script’ is used for motivational quotes of the cover images for example. This allows the viewer to correctly identify the structure of the site. As well as keep a variation in the display.  
-  - The colours of the site are kept to a minimum of three the major colours are #f1f1f1 (an off-white colour), #3a3a3a (an off-black colour), and #81a59b (a neutral duck-egg blue). The feature colour is duck-egg blue, it is the primary colour of the site and acts as a feature colour. Any other colour is a variety of duck-egg colours. This keeps a simplistic colour scheme that resembles calm natural tones that match the feeling of calm and peaceful holidays. Therefore this helps the user to experience a calming site with neutral colors, therefore prompting the user to become a member of a calm and peaceful holiday service.
-  - As a whole the site integrates square and circular aspects to feature. However, the site creates a modern and structured shape. For example, the images on a page are circular since this helps to break up the space around the image but makes it more inviting to look at for the user. Using circular elements within the site continues to provide the user with a calming effect.
-  - The layout of the Home page and Destinations Page are relatively the same, but altered in various sections with colour, This keeps the style and colour consistent while also exploring the possibility of different tones and variations to the page to make them stand out more. This allows the user to experience a site that is consistent while also not being too consistent by making the pages identical to one another.  
+  - The fonts of the site are all imported from Google Fonts and are kept to a minimum of three. ‘Kadwa’ is for the major headings, ‘Bitter’ is for the body text and ‘Dancing-script’ is used for motivational quotes which are found on the cover image for example. This allows the viewer to correctly identify the structure of the site. As well as keep a variation in the display.  
+  - The colours of the site are kept to a minimum of three the major colours are #f1f1f1 (an off-white colour), #3a3a3a (an off-black colour), and #81a59b (a neutral duck-egg blue). The feature colour is duck-egg blue, it is the primary colour of the site and acts as a feature colour. Any other colour is a variety of duck-egg blue colours. This keeps a simplistic colour scheme that resembles calm natural tones that match the feeling of calm and peaceful holidays. Therefore this helps the user to experience a calming site with neutral colors, therefore prompting the user to become a member of a calm and peaceful holiday service.
+  - As a whole the site integrates square and circular aspects to features. However, the site creates a modern and structured shape. For example, the images on a page are circular since this helps to break up the space around the image but makes it more inviting to look at for the user. Using circular elements within the site continues to provide the user with a calming effect.
+  - The layout of the Home page and Destinations Page are relatively the same, but altered in various sections with colour. This keeps the style and colour consistent while also exploring the possibility of different tones and variations to the page to make them stand out more. This allows the user to experience a site that is consistent while also not being too consistent by making the pages identical to one another.  
 
 #### Home Page Features
 
 __The About Us Section__
-* The About Us section is the opening feature of the home page. It features a heading, two paragraphs and a circular image of the couple to the right. When viewed on a tablet or larger devices the image will always take up 50% of the screen and the text wraps around the image. However, the font size and image size depend on the screen size. Another aspect within the paragraph is two anchor elements that link to other sections within the page. The About Us section was of utmost importance to the home page.
+* The About Us section is the opening feature of the home page. It features a heading, two paragraphs and a circular image of the couple to the right. When viewed on tablets or larger devices the image will always take up 50% of the screen and the text wraps around the image. However, the font size and image size depend on the screen size. Another aspect within the paragraph is two anchor elements that link to other sections within the page. The About Us section was of utmost importance to the home page.
 
 * The About Us section allows the user to investigate and understand more about the goal of the company as well as the site’s purpose so that they can understand if this site will help them achieve their goal. The circular image creates a neutral and calming site environment. The image allows the user to have a visual representation of the owners of the site, which makes the exchange of information between the site owner and external user to be more of a conversation. Thus the image is as important as the text, so in concern of responsive design, the image always takes up the same space as the text. When the screen size of the devices goes below the size of a standard tablet the text becomes above the image in the column rather than a row, this is to ensure the user has a clear understanding and flow through the page. The anchor elements also provide the user with a direct and efficient way through the page, thus the colour draws the attention to the user that these pieces of text can be interacted with. To conclude the ‘About Us’ section is of importance to the whole site for it provides an overview of the purpose of the company and the site.  
 
@@ -91,21 +93,21 @@ __Deals and Offers Section__
 
 * The ‘Or’ text between the two options was applied to ensure the user has an understanding of the two separate programs, and to continue this separation are the borders found around the options.
 
-* As well as this the colour of the boxes was changed since this is one of the most essential parts of the site it needed to stand out from other sections found on the site. Therefore the deals and offers section uses colour and background colour to create a difference between the sections, this allows the user to rightly identify certain sections of the page.
+* The colour of the boxes was changed since this is one of the most essential parts of the site, it needed to stand out from other sections found on the site. Therefore the deals and offers section uses colour and background colour to create a difference between the sections, this allows the user to rightly identify certain sections of the page.
 
 * At the bottom of the boxes of the deals is an anchor element that leads the user to the signup page. The colour is brighter than the normal text to inform the user that this aspect of the page can be interacted with. This continues to promote the user to become a member which therefore achieves the site owner's goal.
 
 ![deals-and-offers-home](documentation/deals-&-offers-home.png)
 
 __Image Section__
-* This is the image section within the home page. It is used to create a visual representation of what the user could be booking if they become a member. This feature not only acts as visual motivation but provides a block divide between the ‘Deals and Offers’ and ‘Reviews’ which also allows the user to understand the content of the page once the text has been spaced out from one another. There may be future features to implement here.
+* The image section within the home page, is used to create a visual representation of what the user could be booking if they become a member. This feature not only acts as visual motivation but provides a block divide between the ‘Deals and Offers’ and ‘Reviews’ which also allows the user to understand the content of the page once the text has been spaced out from one another. There may be future features to implement here.
 
 ![image block](documentation/slideshow-home.png)
 
 __Review Section__
 * The review section was another feature to be included as it was important to the site’s owner's goal to receive more memberships. Providing reviews from former travellers who have used this hotel service. This gives the user assurance of the hotel service thus encouraging them to sign up for membership.
 
-* Since the comments from former travellers are rather short it was important to be efficient with the space they take up on the page on a mobile device they appear stacked on top of one another, in a column. In concern to responsive design once the user's screen grows from mobile the reviews are evenly spread across the screen. So once the screen reaches the laptop or desktop all the reviews appear in a row. This was to make sure that reviews stand as a collective rather than individual reviews. Since this is important to the user, on their initial view of the page, the reviews can be together.
+* Since the comments from former travellers are rather short it was important to be efficient with the space they take up on the page on a mobile device they appear stacked on top of one another, in a column. In concern to responsive design once the user's screen grows from mobile the reviews are evenly spread across the screen. So once the screen reaches the laptop or desktop all the reviews appear in a row. This was to make sure that reviews stand as a collective rather than individual reviews. Since this is important to the user, on their initial view of the page.
 
 ![reviews-home-medium](documentation/reviews-home.png)
 
@@ -113,15 +115,14 @@ __Review Section__
 
 ![reviews-home-larger](documentation/reviews-larger-home.png)
 
-* In each of the reviews is a heading containing the former traveller's name and age, a circular image of the former traveller and a personal comment provided by the former traveller. This provides the user with information about the service from different sources, which provides reliability thus prompting the user to sign up.  The name,  age and image continue to provide the user with a conversational interaction and provide potential users with references that help them reach a decision based on similarities between themselves and the former travellers found on the page.
+* In each of the reviews is a heading containing the former traveller's name and age, a circular image of the former traveller and a personal comment provided by the former traveller. This provides the user with information about the service from different sources, which provides reliability thus prompting the user to sign up. The name, age and image continue to provide the user with a conversational interaction and provide potential users with references that help them reach a decision based on similarities between themselves and the former travellers found on the page.
 
 #### Destination Page Features
 
 __Continents Section__
-* Within the destinations, there are six continent sections, containing three possible destinations in that continent. Within these destinations is a circular image of the destination and a box description of the destination.  
+* Within the destinations page, there are six continent sections, containing three possible destinations in that continent. Within these destinations is a circular image of the destination and a box description of the destination.  
 
-* It was essential to separate the continents with headings, to contain its content. To add to this a small borderline for each destination was created.
-The destination page continues to stick to a similar style. Each description of every destination is clear and concise to the user. This was done with an underlined heading of the destination and bullet points with the features of the possible hotel.
+* It was essential to separate the continents with headings, to contain its content. To add to this a small borderline for each destination was created. The destination page continues to stick to a similar style. Each description of every destination is clear and concise to the user. This was done with an underlined heading of the destination and bullet points with the features of the possible hotel.
 
 * In concern to responsive design when viewed on a mobile device the text box is stated above the image to continue the trend of an organised page. However, when viewed on tablets and larger devices the image and text box appear in a row and the order of image and text alternate, this creates an organised flow to the page when seen on larger devices and keeps the site interesting to the user.
 
@@ -130,9 +131,9 @@ The destination page continues to stick to a similar style. Each description of 
 #### Sign-Up and Landing Page Features
 
 __Sign Up form__
-* The signup form is one of the most important features of the whole site since it is the main aspect that achieves the site owner's goal of creating more memberships. Therefore the signup form was created to be as welcoming as possible. The whole page is covered with an image of a cliff side with a path down which reflects the quote on the top of the form. The tones in the images also match those of the chosen colours for the whole site.  The heading on the page matches the cover image of the other pages, this continues to be consistent and creates a calming and motivational environment.
+* The signup form is one of the most important features of the whole site since it is the main aspect that achieves the site owner's goal of creating more memberships. Therefore the signup form was created to be as welcoming as possible. The whole page is covered with an image of a cliff side with a path down which reflects the quote on the top of the form. The tones in the images also match those of the chosen colours for the whole site. The heading on the page matches the cover image of the other pages, this continues to be consistent and creates a calming and motivational environment.
 
-* The form stays in the center of the page still this draws the user to the form rather than the image. The form keeps a clear and organised flow to ensure the user submits all the required data. All inputs are mandatory and necessary for the company to understand the request.
+* The form stays in the centre of the page since this draws the user to the form rather than the image. The form keeps a clear and organised flow to ensure the user submits all the required data. All inputs are mandatory and necessary for the company to understand the request.
 
 ![signup-form](documentation/signup-form-signup.png)
 
@@ -143,10 +144,10 @@ __Sign Up form__
 ### Features Left to Implement
 
 __Slideshow features__
-* In the future I would like to adjust the image block found on the home page. The future implementation would be a JavaScript code so that it would be an interactive slideshow of different locations, as well as a timed slideshow so that images flip independently. 
+* In the future I would like to adjust the image block found on the home page. The future implementation would require JavaScript code so that it would be an interactive slideshow of different locations, as well as a timed slideshow so that images flip independently. 
 
 __A booking system__
-* On the destinations page I would like to implement an interactive Java Script map of the world, so when clicked on a location the information of that location will appear. As well as this I would like to add a booking system to book on certain locations.
+* On the destinations page I would like to implement an interactive JavaScript map of the world, so when clicked on a location the information of that location will appear. As well as this I would like to add a booking system to book on certain locations.
 
 __Submit Button__
 * Currently on the signup page the button to submit the data is an anchor element, so in future implementations, I would consider using a submit button for the sign form to work. For this to work I would need to set up a server.
@@ -166,7 +167,7 @@ __Submit Button__
 
 * I have tested the site on multiple browsers, such as; Chrome, Safari and Firebox.
 * The site and all of its pages are responsive to all devices and have a clear and organized format. I have tested this by using dev tools on Chrome as well as sharing the link to the site on my other devices. The site also has been tested and its structure also adapts to the screen size.
-* All the information on the site is clear and visible as well and the contrast of colour is well set and it is readable and easy to understand. I have also shared the site with other people to have an understanding of other views on the site and all came to the same result that the site is easy to read and understand.
+* All the information on the site is clear and visible and the contrast of colour is well set and is readable and easy to understand. I have also shared the site with other people to have an understanding of their views on the site and they all came to the same result that the site is easy to read and understand.
 * I have made sure that all links to other sections of the page work, as well as I tested links that open tabs and/or open contact applications all work perfectly. As well as this I have tested the hover function on all linked items on the site and they all work.
 * Finally, I have made sure that the form inputs are required and only the appropriate value for the form to be submitted. I have done this by removing the temporary ‘Let’s go’ button with a submit input, and it confirms that the other inputs work perfectly.
 
@@ -206,7 +207,7 @@ Accessibility on the whole site
 
 ![accessibility-source on the destination page](documentation/lighthouse-destinations-results.png)
   
-* Sign Up page: The page has been through the developer tool Lighthouse on Chrome, the accessibility score comes to 96%.
+* Sign-up page: The page has been through the developer tool Lighthouse on Chrome, the accessibility score comes to 96%.
 
 ![accessibility-source on the sign-up page](documentation/lighthouse-signup-results.png)
   
